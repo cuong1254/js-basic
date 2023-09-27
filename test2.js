@@ -22,5 +22,5 @@ function tinhDT(cd,cr) {
     const dt = cd * cr
     return dt
 }
-const dap_an2 = tinhCV(1, 2)
-console.log('DT =', dap_an2)
+const dap_an2 = tinhDT(1, 2)
+const dap_an3 = tinhDT(20, 2)
