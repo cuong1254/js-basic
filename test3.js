@@ -78,5 +78,23 @@ let phu_hay_nguyen_2 = Nguyenam_Phuam('c')
 console.log('=============================')
 //Bai 2: a)
 function Ham_tim_nghiem(a, b, c) {
-    let gt = a*x*x + b*x + c 
+    let delta = b*b-4*a*c
+    if (delta<0){
+        console.log('Phuong trinh vo nghiem')
+    } 
+    else if (delta=0){
+        return `Puong trinh co nghiem kep x1 = x2 = ${-b/2*a} `
+    }
+    else{
+        const x1 = (-b + Math.sqrt(delta) / 2*a)
+        const x2 = (-b - Math.sqrt(delta) / 2*a)
+        return [x1, x2]
+    }
+}
+let ketqua = Ham_tim_nghiem(1, 3, 2)
+console.log('=============================')
+//Bai 2: d)
+function tinhTienDienThoai(soPhut) {
+    phiDau = 25
+    
 }
