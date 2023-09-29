@@ -94,7 +94,17 @@ function Ham_tim_nghiem(a, b, c) {
 let ketqua = Ham_tim_nghiem(1, 3, 2)
 console.log('=============================')
 //Bai 2: d)
-function tinhTienDienThoai(soPhut) {
-    phiDau = 25
-    
+function tinhTienDienThoai(n) {
+    let phi_co_dinh = 25000
+    if (n > 200){
+        tien_tra = n * 600 + (n - 50) * 400 + (n - 200) * 200 + phi_co_dinh
+    }
+    else if (50 > n <= 200){
+        tien_tra = n * 600 + (n - 50) * 400 + phi_co_dinh
+    }
+    else {
+        tien_tra = n * 600 + phi_co_dinh
+    }
+    return `Tien phai tra = ${tien_tra}`
 }
+let ket_qua = tinhTienDienThoai(200)
