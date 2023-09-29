@@ -66,10 +66,10 @@ console.log('=============================')
 //Bai 1: e)
 function Nguyenam_Phuam(n) {
     if (n == 'u' || n == 'o' || n == 'e' || n == 'a' || n == 'i') {
-        console.log('kí tự'+ n + 'là nguyên âm')
+        console.log('kí tự '+ n + ' là nguyên âm')
     }
     else {
-        console.log('kí tự'+ n + 'là phụ âm')
+        console.log('kí tự '+ n + ' là phụ âm')
     }
     return n
 }
@@ -91,7 +91,8 @@ function Ham_tim_nghiem(a, b, c) {
         return [x1, x2]
     }
 }
-let ketqua = Ham_tim_nghiem(1, 3, 2)
+let ketqua = Ham_tim_nghiem(1, 2, 1)
+console.log(ketqua)
 console.log('=============================')
 //Bai 2: d)
 function tinhTienDienThoai(n) {
@@ -108,3 +109,4 @@ function tinhTienDienThoai(n) {
     return `Tien phai tra = ${tien_tra}`
 }
 let ket_qua = tinhTienDienThoai(200)
+console.log(ket_qua)
