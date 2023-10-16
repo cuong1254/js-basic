@@ -25,7 +25,7 @@ function capTongLa10(arr) {
 }
 capTongLa10(arr)
 //b
-arr = [5, -2, 5, -6, 23, 69, 100, -13, 10, 0, 14, 5]
+arr = [5, -2, 5, -6, 23, 69, 100, -13, 10, 0, 14]
 function xoaPhanTuTrungNhau(arr) {
     let arrTrung = arr.sort()
     let  newArr = [arrTrung[0]]
